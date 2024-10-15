@@ -1,6 +1,11 @@
 package com.example.javat1application;
 
-import static com.example.javat1application.cat.hotel;
+
+
+
+
+import static com.example.javat1application.StaticTest.helloWorld;
+import static com.example.javat1application.t_car.Cat.hotel;
 
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +20,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.javat1application.t_car.Car;
 import com.example.javat1application.t_car.EvCar;
+import com.example.javat1application.t_car.Cat;
 import com.example.javat1application.t_handler.BackgroundThread;
 
 
@@ -45,11 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 "200.0", "250.0", "320.0", "400.0", "500.0", "630.0"};
 
 
-        System.out.println(hotel);
-
-//        myCat.meow();
-//        myCat.sleep();
-//        myCat.eat();
 
         int sum;
 
@@ -96,10 +97,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         //클래스
-        cat myCat = new cat("Tom", 3, "Black");
+        Cat myCat = new Cat("Tom", 3, "Black");
         myCat.printInfo();
 
         System.out.println("aaa"+myCat.getName());
+        System.out.println(hotel);
+        System.out.println(helloWorld);
+
 
 
 

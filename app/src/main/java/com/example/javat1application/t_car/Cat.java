@@ -1,15 +1,15 @@
-package com.example.javat1application;
+package com.example.javat1application.t_car;
 
-public class cat {
+public class Cat {
 
-    static String hotel = "Hilton";
+    public static String hotel = "Hilton";
 
 
     String name;
     int age;
     String color;
 
-    public cat(String name, int age, String color) {
+    public Cat(String name, int age, String color) {
         this.name = name;
         this.age = age;
         this.color = color;
