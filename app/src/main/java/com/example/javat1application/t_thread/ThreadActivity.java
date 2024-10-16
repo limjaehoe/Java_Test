@@ -9,10 +9,13 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.javat1application.R;
+//https://makecodework.tistory.com/entry/Java-%EC%8A%A4%EB%A0%88%EB%93%9CThread-%EC%A0%9C%EC%96%B4%ED%95%98%EA%B8%B0-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%EC%84%A4%EC%A0%95-%EB%8F%99%EA%B8%B0%ED%99%94-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+//https://makecodework.tistory.com/entry/Java-%EC%8A%A4%EB%A0%88%EB%93%9CThread-%EC%8A%A4%EB%A0%88%EB%93%9C-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0
+//https://makecodework.tistory.com/entry/Java-%EC%8A%A4%EB%A0%88%EB%93%9CThread-%EC%A0%9C%EC%96%B4%ED%95%98%EA%B8%B0-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%EC%84%A4%EC%A0%95-%EB%8F%99%EA%B8%B0%ED%99%94-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
 
 public class ThreadActivity extends AppCompatActivity {
 
-    //https://makecodework.tistory.com/entry/Java-%EC%8A%A4%EB%A0%88%EB%93%9CThread-%EC%A0%9C%EC%96%B4%ED%95%98%EA%B8%B0-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%EC%84%A4%EC%A0%95-%EB%8F%99%EA%B8%B0%ED%99%94-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
