@@ -7,6 +7,7 @@ package com.example.javat1application;
 import static com.example.javat1application.StaticTest.helloWorld;
 import static com.example.javat1application.t_car.Cat.hotel;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,10 +19,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.javat1application.t_buttonclolor.ButtonColorMainActivity;
 import com.example.javat1application.t_car.Car;
 import com.example.javat1application.t_car.EvCar;
 import com.example.javat1application.t_car.Cat;
 import com.example.javat1application.t_handler.BackgroundThread;
+import com.example.javat1application.t_interface2_handler.InterHandlerActivity;
+import com.example.javat1application.t_threadhandler.ThreadHandlerTest1Activity;
+import com.example.javat1application.t_threadhandler2.ThreadHandlerTest3Activity;
+import com.example.javat1application.t_xmlpasing.XmlCompareActivity;
 
 
 import java.util.ArrayList;
@@ -42,6 +48,15 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        Button nextbutton = findViewById(R.id.next_button);
+        nextbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ButtonColorMainActivity.class);
+                startActivity(intent);
+            }
+        });
+
         textView = findViewById(R.id.textView);
 
 
@@ -50,15 +65,10 @@ public class MainActivity extends AppCompatActivity {
                 "12.5", "16.0", "20.0", "25.0", "32.0", "40.0", "50.0", "63.0", "80.0", "100.0", "125.0", "160.0",
                 "200.0", "250.0", "320.0", "400.0", "500.0", "630.0"};
 
-
-
         int sum;
-
 
         //상속
         Car car = new Car();
-
-
 
         car.drive();
         sum = car.carcluate(1, 2);
@@ -105,8 +115,6 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(helloWorld);
 
 
-
-
         //핸들러 스레드
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -117,8 +125,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
     }
-
-
 }
 

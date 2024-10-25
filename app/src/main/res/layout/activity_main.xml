@@ -28,5 +28,12 @@
         android:layout_height="100dp">
     </Button>
 
+    <Button
+        android:text="연습중인 next"
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </Button>
 
 </LinearLayout>
