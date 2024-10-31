@@ -15,6 +15,15 @@
         android:theme="@style/Theme.JavaT1Application"
         tools:targetApi="31">
         <activity
+            android:name=".t_handler2_claude.MainHandlerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".t_askcode.AscMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".t_ms_calculrate.MsCalculrateMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".t_buttonclolor.ButtonColorMainActivity"
             android:exported="false" />
         <activity

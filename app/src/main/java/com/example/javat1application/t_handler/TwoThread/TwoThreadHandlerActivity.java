@@ -33,6 +33,8 @@ public class TwoThreadHandlerActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.textview_twothread_handler);
 
+
+
         // 데이터 생성 스레드
         new Thread(new Runnable() {
             @Override

@@ -19,15 +19,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.javat1application.t_buttonclolor.ButtonColorMainActivity;
 import com.example.javat1application.t_car.Car;
 import com.example.javat1application.t_car.EvCar;
 import com.example.javat1application.t_car.Cat;
 import com.example.javat1application.t_handler.BackgroundThread;
-import com.example.javat1application.t_interface2_handler.InterHandlerActivity;
-import com.example.javat1application.t_threadhandler.ThreadHandlerTest1Activity;
-import com.example.javat1application.t_threadhandler2.ThreadHandlerTest3Activity;
-import com.example.javat1application.t_xmlpasing.XmlCompareActivity;
+import com.example.javat1application.t_handler2_claude.MainHandlerActivity;
 
 
 import java.util.ArrayList;
@@ -52,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         nextbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ButtonColorMainActivity.class);
+                Intent intent = new Intent(MainActivity.this, MainHandlerActivity.class);
                 startActivity(intent);
             }
         });
