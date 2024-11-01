@@ -22,6 +22,9 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.javat1application.t_car.Car;
 import com.example.javat1application.t_car.EvCar;
 import com.example.javat1application.t_car.Cat;
+import com.example.javat1application.t_executorService.ExecutorService2Activity;
+import com.example.javat1application.t_executorService.ExecutorServiceActivity;
+import com.example.javat1application.t_future.GenerTestMainActivity;
 import com.example.javat1application.t_handler.BackgroundThread;
 import com.example.javat1application.t_handler2_claude.MainHandlerActivity;
 
@@ -48,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         nextbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainHandlerActivity.class);
+                Intent intent = new Intent(MainActivity.this, GenerTestMainActivity.class);
                 startActivity(intent);
             }
         });
