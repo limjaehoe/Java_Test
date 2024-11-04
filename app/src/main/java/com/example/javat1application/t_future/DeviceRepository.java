@@ -28,4 +28,16 @@ public class DeviceRepository {
             throw new DeviceException("Failed to send KV value: " + e.getMessage());
         }
     }
+
+    public void sendMaValue(int value) throws DeviceException {
+        if (!isConnected) {
+            throw new DeviceException("Device not connected");
+        }
+
+        try {
+            serialCommunicator.sendCommand("SET_MA:" + value);
+        } catch (Exception e) {
+            throw new DeviceException("Failed to send mA value: " + e.getMessage());
+        }
+    }
 }
