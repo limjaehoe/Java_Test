@@ -1,6 +1,6 @@
 package com.example.javat1application.t_future;
 
-public class DeviceRepository {
+public class DeviceRepository { //데이터 접근과 장치 통신을 담당
     private final SerialCommunicator serialCommunicator;
     private boolean isConnected = false;
 

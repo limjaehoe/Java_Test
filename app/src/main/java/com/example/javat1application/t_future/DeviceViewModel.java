@@ -16,7 +16,7 @@ public class DeviceViewModel extends ViewModel {
     private final DeviceRepository deviceRepository;
     //Log
     private final MutableLiveData<List<LogEntry>> logs = new MutableLiveData<>(new ArrayList<>());
-
+    private final DevicePreferences preferences = null;
 
     public DeviceViewModel() {
         this.deviceRepository = new DeviceRepository();
